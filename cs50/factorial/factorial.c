@@ -2,7 +2,10 @@
 #include <stdio.h>
 
 /*
-    C implementation of finding the Factorial of a number.
+    C implementation of finding the Factorial for positive
+    whole numbers.
+    @datetime:: September 23, 2023 1:19 am (UTC-5)
+    @author:: jac0der
 */
 
 // define function prototype
