@@ -18,16 +18,22 @@ int main(void)
     return 0;
 }
 
+/***
+    Function to fing the factorial of a number
+    @input:: number to retrieve factorial for
+    @output:: factorial of input number
+*/
 double factorial(int number)
 {
     double fact;
 
-    // 1! is 1 so return 1
+    // 1! is 1 so return 1 - base case met
     if(number == 1)
     {
         return number;
     }
 
+    // recursively call factorial on n - 1
     fact = number * factorial(number -1);
 
     return fact;
