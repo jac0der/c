@@ -19,7 +19,7 @@ int main(void)
 }
 
 /***
-    Function to fing the factorial of a number
+    Function to find the factorial of a number
     @input:: number to retrieve factorial for
     @output:: factorial of input number
 */
