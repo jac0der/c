@@ -1,0 +1,7 @@
+The Collatz conjecture applies to positive integers and speculates that it
+is always possible to get "back to 1" if you follow these steps:
+
+    1. If n is 1, stop
+    2. Otherwise, if n is even, repeat this process on n/2
+    3. Otherwise, if n is odd, repeat theis process on 3n + 1
+
